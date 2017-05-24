@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "title": {
+            "translate": "advancements.adventure.sniper_duel.title"
+        },
+        "description": {
+            "translate": "advancements.adventure.sniper_duel.description"
+        },
+        "frame": "challenge"
+    },
+    "parent": "adventure/shoot_arrow",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
